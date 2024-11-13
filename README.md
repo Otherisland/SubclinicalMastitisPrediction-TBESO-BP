@@ -88,7 +88,6 @@ The dataset contains various production indicators for dairy cows, with detailed
 | Milk Yield                  | Kg      | Amount of milk produced by the cow during the lactation period. |
 | Milk Fat Rate               | %       | Percentage of fat in the milk.                               |
 | Protein Rate                | %       | Percentage of protein in the milk.                           |
-| Somatic Cell Score          | None    | Score of somatic cell count in milk, indicating udder health. |
 | Urea Nitrogen               | mg/dl   | Concentration of urea nitrogen in milk, reflecting the cow’s protein metabolism status. |
 | Persistence                 | None    | Lactation persistence, assessing the cow's sustained production ability. |
 | Previous Somatic Cell Count | 10^4/ml | Somatic cell count from the previous measurement.            |
