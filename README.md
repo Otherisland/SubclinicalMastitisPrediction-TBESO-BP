@@ -11,6 +11,7 @@ The data processing and model evaluation scripts are implemented in Python Jupyt
 - `results/`: Sample results, including model performance metrics and visualizations.
 - `evaluation/`: Files and directories for running the TBESO-BP model's optimization and evaluation functions.
 - `data/`: Processed dataset used in the study (raw data is not included due to privacy concerns).
+- `Population Distribution/`: Visualize the population distribution.
 
 ## Getting Started
 
@@ -62,7 +63,13 @@ To run the model training and ablation experiments, you will need **MATLAB** wit
   - `10 runs of the model comparison data & figure.xlsx`: Contains data and visualization comparing the performance of different models across 10 independent runs.
   - `Comparison of actual and predicted values.xlsx`: Provides a side-by-side comparison of actual vs. predicted values for SCC, allowing insight into the model's prediction accuracy.
   - `mean_std.xlsx`: Includes the mean and standard deviation for the metrics across different models, helping to assess the stability and variability in model performance.
-  - `wilcoxo_rank.xlsx`: Results from the Wilcoxon rank-sum test, providing statistical comparison between models to validate significant differences in performance.  
+  - `wilcoxo_rank.xlsx`: Results from the Wilcoxon rank-sum test, providing statistical comparison between models to validate significant differences in performance.
+
+- Population Distribution/
+  : includes:
+
+  - `draw.py`: Provides the python to visualize the population distribution.
+  - `data/`: each iterations data samples.
 
 ### Running the Code
 
