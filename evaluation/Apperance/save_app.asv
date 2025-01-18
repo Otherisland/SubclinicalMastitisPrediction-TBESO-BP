@@ -1,0 +1,24 @@
+% 创建line_styles变量
+% 
+% currentPath = pwd;
+% disp(['Current working directory: ' currentPath]);
+
+%line_styles
+line_styles = {'--', '-', ':', '-.'}; %'none'
+line_widths=[1,1,1,1,1,1,1,2];
+% markers={'o','x','+','*','s','d','^','>','v','<','p','h'};%'none','.','_','|'
+markers={'*','p','s','^','d',+','*','s','d','^','};
+% color_all= [    
+
+    % ];  % 明显的红色
+
+
+% 创建 Apperance 文件夹（如果不存在）
+if ~exist('Apperance', 'dir')
+    mkdir('Apperance');
+end
+
+% 保存 line_styles 和 line_width 到 cec2017/Apperance/style_info.mat 文件
+% save('Apperance/style_info.mat', 'line_styles', 'line_widths','markers','color_all');
+save('Apperance/style_info.mat', 'line_styles', 'line_widths','markers');
+
