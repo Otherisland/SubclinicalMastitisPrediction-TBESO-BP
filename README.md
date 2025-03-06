@@ -122,8 +122,8 @@ For detailed algorithmic explanations, please refer to the paper.
 The TBESO-BP model achieved high accuracy in predicting SCC, as demonstrated by the following metrics on the test dataset:
 
 - **R²**: 0.94
-- **MAE**: 2.06585
-- **RMSE**: 5.04356
+- **MAE**: 2.07
+- **RMSE**: 5.04
 
 ## Contact
 
