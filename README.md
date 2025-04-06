@@ -2,6 +2,10 @@
 
 This repository contains code and data for the paper (Online now) **"TBESO-BP: an improved regression model for predicting subclinical mastitis"**. In this study, we developed a neural network model based on a backpropagation (BP) neural network enhanced with the Multi-strategy Boosted Snake Optimizer (TBESO) to predict somatic cell count (SCC) and assist in the early detection of subclinical mastitis in dairy cows.
 
+[1] Han K, Dai Y, Liu H, et al. TBESO-BP: An Improved Regression Model for Predicting Subclinical Mastitis[J]. Frontiers in Veterinary Science, 2025, 12: 1396799.
+
+Doi: https://doi.org/10.3389/fvets.2025.1396799
+
 The data processing and model evaluation scripts are implemented in Python Jupyter Notebooks, while the machine learning models, including TBESO-BP, alternative BP models, and TBESO ablation experiments, are implemented in MATLAB.
 
 ## Repository Contents
